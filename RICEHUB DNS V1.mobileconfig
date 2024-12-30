@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://gotmmm9atx.cloudflare-gateway.com/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <!-- Apple-related domains to block revokes/blacklists -->
+                    <string>ppq.apple.com</string>
+                    <string>ocsp.int-x3.letsencrypt.org</string>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>crl.apple.com</string>
+                    <string>crl3.digicert.com</string>
+                    <string>crl4.digicert.com</string>
+                    <string>ocsp.digicert.cn</string>
+                    <string>ocsp.digicert.com</string>
+                    <string>ocsp.entrust.net</string>
+                    <string>ocsp.usertrust.com</string>
+                    <string>valid.apple.com</string>
+                    <string>ffapple.com</string>
+                    <string>mesu.apple.com</string>
+                    <string>world-gen.g.aaplimg.com</string>
+                    <string>xp.apple.com</string>
+                    <string>appldnld.apple.com</string>
+                    <string>swscan.apple.com</string>
+                    <string>pass.nekoo.apple</string>
+                    <string>metrics.apple.com</string>
+
+                    <!-- Enhanced Ad Blocking Domains (For "Apple Block with Ad Blocker") -->
+                    <string>doubleclick.net</string>
+                    <string>googleadservices.com</string>
+                    <string>googlesyndication.com</string>
+                    <string>adservice.google.com</string>
+                    <string>admob.com</string>
+                    <string>adsafeprotected.com</string>
+                    <string>pubmatic.com</string>
+                    <string>moatads.com</string>
+                    <string>ads.yahoo.com</string>
+                    <string>adnxs.com</string>
+                    <string>criteo.com</string>
+                    <string>outbrain.com</string>
+                    <string>taboola.com</string>
+                    <string>atdmt.com</string>
+                    <string>doubleverify.com</string>
+                    <string>scorecardresearch.com</string>
+                    <string>zedo.com</string>
+                    <string>ads-twitter.com</string>
+                    <string>ads-facebook.com</string>
+                    <string>fbcdn.net</string>
+                    <string>fwmrm.net</string>
+                    <string>adroll.com</string>
+                    <string>liverail.com</string>
+                    <string>yimg.com</string>
+                    <string>adform.net</string>
+                    <string>advertising.com</string>
+                    <string>rubiconproject.com</string>
+                    <string>openx.net</string>
+                    <string>appnexus.com</string>
+                    <string>brightcove.com</string>
+                    <string>media.net</string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>Apple Block with Ad Blocker</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ricehub.dns.appleblock.withadblocker</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>12345678-1234-1234-1234-123456789012</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://gotmmm9atx.cloudflare-gateway.com/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <!-- Apple-related domains to block revokes/blacklists (No ad-blocking in this one) -->
+                    <string>ppq.apple.com</string>
+                    <string>ocsp.int-x3.letsencrypt.org</string>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>crl.apple.com</string>
+                    <string>crl3.digicert.com</string>
+                    <string>crl4.digicert.com</string>
+                    <string>ocsp.digicert.cn</string>
+                    <string>ocsp.digicert.com</string>
+                    <string>ocsp.entrust.net</string>
+                    <string>ocsp.usertrust.com</string>
+                    <string>valid.apple.com</string>
+                    <string>ffapple.com</string>
+                    <string>mesu.apple.com</string>
+                    <string>world-gen.g.aaplimg.com</string>
+                    <string>xp.apple.com</string>
+                    <string>appldnld.apple.com</string>
+                    <string>swscan.apple.com</string>
+                    <string>pass.nekoo.apple</string>
+                    <string>metrics.apple.com</string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>Apple Block with No Ad Blocker</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ricehub.dns.appleblock.noadblocker</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>87654321-4321-4321-4321-210987654321</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <!-- Profile metadata -->
+    <key>PayloadDescription</key>
+    <string>RICEHUB DNS - The best solution for anti-revoke and anti-blacklist. Choose between Apple Block with or without ad-blocking.</string>
+    <key>PayloadDisplayName</key>
+    <string>RICEHUB DNS V1</string>
+    <key>PayloadIdentifier</key>
+    <string>com.ricehub.dnsconfig</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>11223344-5566-7788-99AA-BBCCDDEEFF00</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
